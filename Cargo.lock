@@ -9009,7 +9009,7 @@ dependencies = [
 [[package]]
 name = "simnode-runtime-apis"
 version = "0.1.0"
-source = "git+https://github.com/polytope-labs/substrate-simnode?branch=master#db8523094ea28215871270023f382c4ba2255a65"
+source = "git+https://github.com/polytope-labs/substrate-simnode?branch=master#8fd8b631d2b669b5a5cb95c02c51ffc099d42675"
 dependencies = [
  "parity-scale-codec",
  "sp-api",
@@ -9997,8 +9997,9 @@ dependencies = [
 [[package]]
 name = "substrate-simnode"
 version = "0.1.0"
-source = "git+https://github.com/polytope-labs/substrate-simnode?branch=master#db8523094ea28215871270023f382c4ba2255a65"
+source = "git+https://github.com/polytope-labs/substrate-simnode?branch=master#8fd8b631d2b669b5a5cb95c02c51ffc099d42675"
 dependencies = [
+ "clap 3.1.6",
  "cumulus-pallet-parachain-system",
  "cumulus-primitives-parachain-inherent",
  "cumulus-test-relay-sproof-builder",
@@ -10045,7 +10046,6 @@ dependencies = [
  "sp-state-machine",
  "sp-transaction-pool",
  "sp-wasm-interface",
- "structopt",
  "tokio",
 ]
 
@@ -10416,7 +10416,7 @@ dependencies = [
  "chrono",
  "lazy_static",
  "matchers",
- "parking_lot 0.11.2",
+ "parking_lot 0.10.2",
  "regex",
  "serde",
  "serde_json",
