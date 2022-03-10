@@ -1,4 +1,4 @@
-use sc_cli::{CliConfiguration, SubstrateCli};
+use sc_cli::{CliConfiguration};
 use std::error::Error;
 use std::sync::Arc;
 use parachain_inherent::ParachainInherentData;
